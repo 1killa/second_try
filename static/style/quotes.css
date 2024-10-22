@@ -110,15 +110,15 @@ header h1 {
 }
 
 .block:nth-child(1) .face1 {
-  background-image: url('/static/images/s1mple.png');
+  background-image: url('https://img-cdn.hltv.org/playerbodyshot/GJO4YI4EC6L1LpNFZX13eS.png?ixlib=java-2.1.0&w=400&s=1b49753162ebf20e6d3440f7e377ec55')
 }
 
 .block:nth-child(2) .face1 {
-  background-image: url('/static/images/elec.png');
+  background-image: url('https://img-cdn.hltv.org/playerbodyshot/_zRrFpLvv9aPaLnNPEauoy.png?ixlib=java-2.1.0&w=400&s=d664fbeda3d4ff7053843e1271f05aef');
 }
 
 .block:nth-child(3) .face1 {
-  background-image: url('/static/images/boobl4.webp');
+  background-image: url('https://img-cdn.hltv.org/playerbodyshot/mIeLhY9hNPOhhDzAIs-mXf.png?ixlib=java-2.1.0&w=400&s=f9a67fae3adf86a0fc1a3de663854360');
 }
 
 footer {
