@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+header img {
+    max-width: 150px;
+    margin-right: 20px;
+}
+
+header h1 {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+nav {
+    background-color: #fff200;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 2px;
+    padding: 8px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #fff;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.player-profile {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.player-image {
+    width: 180px;
+    border-radius: 50%;
+    background-color: #ddd;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.player-info {
+    flex-grow: 1;
+}
+
+.player-info h2 {
+    margin: 0 0 10px 0;
+    font-size: 22px;
+}
+
+.player-info p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+}
+
+/* Адаптивная верстка */
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+
+    .player-profile {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .player-image {
+        width: 120px;
+        height: 120px;
+    }
+
+    .player-info h2 {
+        font-size: 20px;
+    }
+
+    .player-info p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    header img {
+        max-width: 70px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    nav a {
+        margin: 0 10px;
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 15px;
+        font-size: 14px;
+    }
+}
